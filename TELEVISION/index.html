@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Television</title>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="images/icon.jpg" type="image/icon type">
+</head>
+
+<body>
+	<div class="channels">
+		<nav>
+			<img class="logo" src="images/icon.jpg">
+			<ul>
+                <li><a onclick="fun()" href="#">Home</a></li>
+				<li><a href="#">News</a>
+					<ul>
+						<li><a onclick="fun1()" href="#">Sakshi</a></li>
+						<li><a onclick="fun2()" href="#">ETV AP</a></li>
+						<li><a onclick="fun3()" href="#">ABN</a></li>
+					</ul>
+				</li>
+                <li><a href="#">Sports</a>
+				    <ul>
+					    <li><a onclick="fun4()" href="#">DD Sports</a></li>
+						<li><a onclick="fun5()" href="#">Pack-12</a></li>
+						<li><a onclick="fun6()" href="#">Tetris</a></li>
+                    </ul>
+				</li>
+                <li><a href="#">Movies</a>
+                    <ul>
+					    <li><a onclick="fun7()" href="#">Movies Now</a></li>
+						<li><a onclick="fun8()" href="#">Star Movies</a></li>
+						<li><a onclick="fun9()" href="#">Local Tv</a></li>
+                    </ul>
+				</li>
+                <li><a href="#">Cartoons</a>
+                    <ul>
+					    <li><a onclick="fun10()" href="#">Local-Nuts</a></li>
+						<li><a onclick="fun11()" href="#">Disney</a></li>
+						<li><a onclick="fun12()" href="#">Rhymes-Tv</a></li>
+				    </ul>
+				</li>
+                <li><a href="#">Other</a>
+                    <ul>
+						<li><a onclick="fun14()" href="#">Local-Music</a></li>
+						<li><a onclick="fun15()" href="#">Music</a></li>
+						<li><a onclick="fun13()" href="#">Rain</a></li>
+                    </ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="frame">
+		<img src="images/44491061-outline-illustration-of-led-tv.jpg">
+	</div>
+	<div class="tv">
+		<iframe id="myframe" width="649" height="370" src="https://www.youtube.com/embed/gXRWiQanMRI?autoplay=1&amp;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="volume">
+		<button class="increase" onclick="document.getElementById('myframe').volume+=1">Vol +</button>
+		<button class="decrease" onclick="document.getElementById('myframe').volume-=1">Vol -</button>
+	</div>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</body>
+
+</html>
